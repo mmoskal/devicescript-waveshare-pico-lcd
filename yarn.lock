@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@devicescript/cli@latest":
-  version "2.13.9"
-  resolved "https://registry.yarnpkg.com/@devicescript/cli/-/cli-2.13.9.tgz#9354473461c26cb1277a1b985df534140cfd4e29"
-  integrity sha512-Ml/7RxghJOJ5FMu/AW1EJeBVrOLd/kBfMqMyitX3KSu/rB2eIfg02txGNRCaQ72WI3elWHRGhRMkcDiHDTHkFg==
+"@devicescript/cli@^2.13.10":
+  version "2.13.10"
+  resolved "https://registry.yarnpkg.com/@devicescript/cli/-/cli-2.13.10.tgz#7ae84cec4c18ce114729a41ff273f576c6e27c35"
+  integrity sha512-CCKWcNZRRg/aqTVF8rhe/Z8Z6+v8VCDM+vF2Jk6+XmVVwXh7MCnbnf4S8irKkWFy5VBDKh/j4+cdsMUbUZIqDg==
   dependencies:
-    "@devicescript/compiler" "2.13.9"
+    "@devicescript/compiler" "2.13.10"
     buffer "^6.0.3"
     jacdac-ts "1.33.1"
     update-notifier "^6.0.2"
@@ -15,10 +15,10 @@
   optionalDependencies:
     serialport "^10.5.0"
 
-"@devicescript/compiler@2.13.9":
-  version "2.13.9"
-  resolved "https://registry.yarnpkg.com/@devicescript/compiler/-/compiler-2.13.9.tgz#6d4b75b01d1c59eea5b1dfe976f62e66404c3175"
-  integrity sha512-Q0I+9blnQa6KZWDctEGQtfS3rg9q1pCd8mj4jjKmnr/P1Mgmx3ggCjyXFSCVQvNQYwp/bSsOkNXDS8Rfi5rgvQ==
+"@devicescript/compiler@2.13.10":
+  version "2.13.10"
+  resolved "https://registry.yarnpkg.com/@devicescript/compiler/-/compiler-2.13.10.tgz#d9a8f1db1a846458d21bb5e312f3f28cd5a86c9e"
+  integrity sha512-HvSnGVR+EMHrmmmyG1UHlQRojsO1V8RY5lBdr+aVMFSiYMk0xiFs1iY3guJPs0K4rbFYGL1vx+fAbnPjCAMdxg==
 
 "@pnpm/config.env-replace@^1.1.0":
   version "1.1.0"
