@@ -1,11 +1,5 @@
-# WaveShare Pico-LCD drivers for DeviceScript
-
-Supported devices (PRs are welcome!).
-
-## Usage
-
-```ts
-import { WaveSharePicoLCD114 } from "devicescript-waveshare-pico-lcd"
+import * as ds from "@devicescript/core"
+import { WaveSharePicoLCD114 } from "./picolcd114"
 
 const board = new WaveSharePicoLCD114()
 
@@ -21,12 +15,3 @@ gp.change.subscribe(btns => {
         // ...
     }
 })
-```
-
-## Pico-LCD-1.14
-
-![Pico-LCD-1.14](assets/pico-lcd-114.png)
-
-https://www.waveshare.com/pico-lcd-1.14.htm
-
-
