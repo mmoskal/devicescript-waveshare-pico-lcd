@@ -1,6 +1,9 @@
 import * as ds from "@devicescript/core"
 import { WaveSharePicoLCD114 } from "./picolcd114"
 
+// not testing in sim
+if (ds.isSimulator()) ds.restart()
+
 const board = new WaveSharePicoLCD114()
 
 const gp = board.startGamepad()
