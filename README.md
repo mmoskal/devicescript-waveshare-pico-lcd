@@ -1,6 +1,6 @@
 # WaveShare Pico-LCD drivers for DeviceScript
 
-Supported devices (PRs are welcome!).
+Drivers for RPi Pico display hats by WaveShare.
 
 ## Usage
 
@@ -23,7 +23,11 @@ gp.change.subscribe(btns => {
 })
 ```
 
-## Pico-LCD-1.14
+## Supported devices
+
+PRs are welcome!
+
+### Pico-LCD-1.14
 
 ![Pico-LCD-1.14](assets/pico-lcd-114.png)
 
