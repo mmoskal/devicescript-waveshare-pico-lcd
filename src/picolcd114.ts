@@ -9,6 +9,7 @@ import { Image } from "@devicescript/graphics"
  * Driver for WaveShare Pico-LCD-1.14 inch.
  * 
  * @see https://www.waveshare.com/pico-lcd-1.14.htm
+ * @devsWhenUsed only start services which are used!
  */
 export class WaveSharePicoLCD114 {
     constructor() {}
