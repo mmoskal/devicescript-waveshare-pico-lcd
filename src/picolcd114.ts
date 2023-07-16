@@ -16,29 +16,29 @@ export class WaveSharePicoLCD114 {
 
     startGamepad() {
         return startGamepad({
-            pinA: pins.P15,
-            pinB: pins.P17,
-            pinDown: pins.P18,
-            pinLeft: pins.P16,
-            pinSelect: pins.P3, // middle
-            pinRight: pins.P20,
-            pinUp: pins.P2,
+            pinA: pins.GP15,
+            pinB: pins.GP17,
+            pinDown: pins.GP18,
+            pinLeft: pins.GP16,
+            pinSelect: pins.GP3, // middle
+            pinRight: pins.GP20,
+            pinUp: pins.GP2,
         })
     }
 
     async startDisplay() {
         spi.configure({
-            mosi: pins.P11,
-            sck: pins.P10,
+            mosi: pins.GP11,
+            sck: pins.GP10,
             hz: 8_000_000,
         })
 
-        pins.P13.setMode(ds.GPIOMode.OutputHigh) // BL
+        pins.GP13.setMode(ds.GPIOMode.OutputHigh) // BL
 
         const d = new ST7789Driver(Image.alloc(240, 136, 4), {
-            dc: pins.P8,
-            cs: pins.P9,
-            reset: pins.P12,
+            dc: pins.GP8,
+            cs: pins.GP9,
+            reset: pins.GP12,
             // frmctr1: 0x0e_14_ff,
             flip: false,
             spi: spi,
