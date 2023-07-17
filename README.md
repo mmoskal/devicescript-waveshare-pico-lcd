@@ -2,6 +2,20 @@
 
 Drivers for RPi Pico display hats by WaveShare.
 
+### Pico-LCD-1.14
+
+![Pico-LCD-1.14](assets/pico-lcd-114.png)
+
+https://www.waveshare.com/pico-lcd-1.14.htm
+
+## Setup
+
+This projet uses GitHub releases, which you can also add to your package.json dependencies list.
+
+```bash
+npm install --save mmoskal/devicescript-waveshare-pico-lcd
+```
+
 ## Usage
 
 ```ts
@@ -26,11 +40,3 @@ gp.change.subscribe(btns => {
 ## Supported devices
 
 PRs are welcome!
-
-### Pico-LCD-1.14
-
-![Pico-LCD-1.14](assets/pico-lcd-114.png)
-
-https://www.waveshare.com/pico-lcd-1.14.htm
-
-
