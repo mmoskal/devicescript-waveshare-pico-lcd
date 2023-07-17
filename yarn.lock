@@ -3,9 +3,9 @@
 
 
 "@devicescript/cli@^2.13.10":
-  version "2.14.1"
-  resolved "https://registry.yarnpkg.com/@devicescript/cli/-/cli-2.14.1.tgz#ec6f1b70f1002c0278c0dc8fcbc637e41ac3b67c"
-  integrity sha512-PeGWz6bdafCWBPLaLc32eLulNXwF4yorH9kukhsLUN8ACCW66X3Jgex89adS2hkZyZCqae+LuXUXKPV5ZY4uVw==
+  version "2.14.2"
+  resolved "https://registry.yarnpkg.com/@devicescript/cli/-/cli-2.14.2.tgz#fcb071cd8e395eba166ecf311984ba0aeee3aa06"
+  integrity sha512-QwbUWl6HmGX5mhjcfMR1D4jLGDViobSmGLfW+I/CFju5BbPmZv2KzhAVM4D3g3l96+IE9y5/fNfT7PWUwQPk9w==
   dependencies:
     update-notifier "^6.0.2"
   optionalDependencies:
@@ -117,9 +117,9 @@
     debug "^4.3.2"
 
 "@sindresorhus/is@^5.2.0":
-  version "5.5.0"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-5.5.0.tgz#70af51f38ef3b624eb08eb02a2ed70f117fa19d7"
-  integrity sha512-3rO1QIz6mL0MvFVTOxqhDJRVsLfG/vK2VSlKKPghALA6FhJqU7L+RUHnFvH5BP5HhkWiMQqq514i9ZFTcqoGCQ==
+  version "5.5.1"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-5.5.1.tgz#a18b694ca8e9f45d64f578a4779568dd74d232b8"
+  integrity sha512-wTsEUhqTXg1NDW+o9aWANj4LxELwWjqN0F3ltsWwpYoh0NSlMWo+u7FluRrSF2E2uaPYx7dJ3FnTf69git/0ug==
 
 "@szmarczak/http-timer@^5.0.1":
   version "5.0.1"
@@ -417,9 +417,9 @@ json-buffer@3.0.1:
   integrity sha512-4bV5BfR2mqfQTJm+V5tPPdf+ZpuhiIvTuAB5g8kcrXOZpTT/QwwVRWBywX1ozr6lEuPdbHxwaJlm9G6mI2sfSQ==
 
 keyv@^4.5.2:
-  version "4.5.2"
-  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.5.2.tgz#0e310ce73bf7851ec702f2eaf46ec4e3805cce56"
-  integrity sha512-5MHbFaKn8cNSmVW7BYnijeAVlE4cYA/SVkifVgrh7yotnfhKmjuXpDKjrABLnT0SfHWV21P8ow07OGfRrNDg8g==
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/keyv/-/keyv-4.5.3.tgz#00873d2b046df737963157bd04f294ca818c9c25"
+  integrity sha512-QCiSav9WaX1PgETJ+SpNnx2PRRapJ/oRSXM4VO5OGYGSjrxbKPVFVhB3l2OCbLCk329N8qyAtsJjSjvVBWzEug==
   dependencies:
     json-buffer "3.0.1"
 
