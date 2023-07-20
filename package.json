@@ -1,6 +1,6 @@
 {
     "name": "devicescript-waveshare-pico-lcd",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "dependencies": {},
     "devDependencies": {
         "@devicescript/cli": "^2.13.10"
