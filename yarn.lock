@@ -3,9 +3,9 @@
 
 
 "@devicescript/cli@^2.13.10":
-  version "2.14.2"
-  resolved "https://registry.yarnpkg.com/@devicescript/cli/-/cli-2.14.2.tgz#fcb071cd8e395eba166ecf311984ba0aeee3aa06"
-  integrity sha512-QwbUWl6HmGX5mhjcfMR1D4jLGDViobSmGLfW+I/CFju5BbPmZv2KzhAVM4D3g3l96+IE9y5/fNfT7PWUwQPk9w==
+  version "2.14.3"
+  resolved "https://registry.yarnpkg.com/@devicescript/cli/-/cli-2.14.3.tgz#c07969275397836d03fd7a5926e63c7bd2f3772f"
+  integrity sha512-83XMsL6W+Ww73ZEXwYxgtDspwPch1UtJ6iW35UuTc2lwaL32NeLWSfUcAYBCjvrS6+GSmH1xrwdnRBq/XmVi4w==
   dependencies:
     update-notifier "^6.0.2"
   optionalDependencies:
@@ -117,9 +117,9 @@
     debug "^4.3.2"
 
 "@sindresorhus/is@^5.2.0":
-  version "5.5.1"
-  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-5.5.1.tgz#a18b694ca8e9f45d64f578a4779568dd74d232b8"
-  integrity sha512-wTsEUhqTXg1NDW+o9aWANj4LxELwWjqN0F3ltsWwpYoh0NSlMWo+u7FluRrSF2E2uaPYx7dJ3FnTf69git/0ug==
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-5.5.2.tgz#cbfd816d556b941f65d32cfc6d708359b826e7ea"
+  integrity sha512-8ZMK+V6YpeZFfW6hU9uAeWVuq8v3t7BaG276gIO+kVqnAcLrHCXdFUOf7kgouyfAarkZtuavIqY3RsXTsTWviw==
 
 "@szmarczak/http-timer@^5.0.1":
   version "5.0.1"

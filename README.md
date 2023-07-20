@@ -8,7 +8,7 @@ PRs are welcome!
 
 ### Pico-LCD-1.14
 
-![Pico-LCD-1.14](assets/pico-lcd-114.png)
+![Pico-LCD-1.14](https://github.com/mmoskal/devicescript-waveshare-pico-lcd/raw/main/assets/pico-lcd-114.png)
 
 https://www.waveshare.com/pico-lcd-1.14.htm
 
